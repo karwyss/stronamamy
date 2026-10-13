@@ -1040,3 +1040,41 @@ html.js .reveal.is-visible { opacity: 1; transform: translateY(0); }
   .fade-in { opacity: 1 !important; animation: none !important; }
   .hero-bg, .method-card, .consult-card, .prep-card, .feature-card { transform: none !important; }
 }
+
+#madeby.made-by {
+  padding: 0.7rem var(--gutter);
+  border-top: 1px solid var(--line);
+  background: var(--bg);
+  color: var(--muted-2);
+  font-family: var(--mono);
+  font-size: 0.9rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  
+  /* Pewne wyśrodkowanie elementu kontenera */
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+#madeby.made-by .container {
+  width: auto;
+  margin: 0 auto !important;
+  text-align: center !important;
+}
+
+#madeby.made-by p {
+  margin: 0 !important;
+  text-align: center !important;
+}
+
+#madeby.made-by a {
+  color: #0878f9;
+  font-weight: 700;
+  transition: color .25s ease;
+}
+
+#madeby.made-by a:hover {
+  color: rgba(8,120,249,0.8);
+}

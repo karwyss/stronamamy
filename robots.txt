@@ -1,4 +1,4 @@
 ﻿User-agent: *
 Allow: /
 
-Sitemap: https://fizjokids.pl/sitemap.xml
+Sitemap: https://fizjokidswadowice.pl/sitemap.xml
